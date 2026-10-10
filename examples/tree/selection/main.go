@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"path"
 
-	"charm.land/lipgloss/v2"
-	"charm.land/lipgloss/v2/tree"
+	"github.com/keakon/lipgloss/v2"
+	"github.com/keakon/lipgloss/v2/tree"
 )
 
 const selected = "/Users/bash/.config/doom-emacs"

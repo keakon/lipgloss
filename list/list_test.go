@@ -5,11 +5,11 @@ import (
 	"testing"
 	"unicode"
 
-	"charm.land/lipgloss/v2"
-	"charm.land/lipgloss/v2/list"
-	"charm.land/lipgloss/v2/tree"
 	"github.com/aymanbagabas/go-udiff"
 	"github.com/charmbracelet/x/exp/golden"
+	"github.com/keakon/lipgloss/v2"
+	"github.com/keakon/lipgloss/v2/list"
+	"github.com/keakon/lipgloss/v2/tree"
 )
 
 // XXX: can't write multi-line examples if the underlying string uses

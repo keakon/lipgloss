@@ -5,7 +5,7 @@ import (
 	"image"
 	"slices"
 
-	uv "github.com/charmbracelet/ultraviolet"
+	uv "github.com/keakon/ultraviolet"
 )
 
 // Layer represents a visual layer with content and positioning. It's a pure

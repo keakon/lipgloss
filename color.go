@@ -8,7 +8,7 @@ import (
 	"strings"
 
 	"github.com/charmbracelet/colorprofile"
-	"github.com/charmbracelet/x/ansi"
+	"github.com/keakon/x/ansi"
 	"github.com/lucasb-eyer/go-colorful"
 )
 

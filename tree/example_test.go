@@ -3,8 +3,8 @@ package tree_test
 import (
 	"fmt"
 
-	"charm.land/lipgloss/v2/tree"
-	"github.com/charmbracelet/x/ansi"
+	"github.com/keakon/lipgloss/v2/tree"
+	"github.com/keakon/x/ansi"
 )
 
 // Leaf Examples

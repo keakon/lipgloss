@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 
-	"charm.land/lipgloss/v2"
+	"github.com/keakon/lipgloss/v2"
 )
 
 var gradients = [][]color.Color{

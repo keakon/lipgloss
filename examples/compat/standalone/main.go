@@ -7,8 +7,8 @@
 package main
 
 import (
-	"charm.land/lipgloss/v2"
-	"charm.land/lipgloss/v2/compat"
+	"github.com/keakon/lipgloss/v2"
+	"github.com/keakon/lipgloss/v2/compat"
 )
 
 var (

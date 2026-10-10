@@ -5,8 +5,8 @@ import (
 	"os"
 	"strings"
 
-	"charm.land/lipgloss/v2"
 	"github.com/charmbracelet/x/exp/charmtone"
+	"github.com/keakon/lipgloss/v2"
 )
 
 // newField fills a rectangular area with a given character in a given color.

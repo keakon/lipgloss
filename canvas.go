@@ -1,8 +1,8 @@
 package lipgloss
 
 import (
-	uv "github.com/charmbracelet/ultraviolet"
-	"github.com/charmbracelet/x/ansi"
+	uv "github.com/keakon/ultraviolet"
+	"github.com/keakon/x/ansi"
 )
 
 // Canvas is a cell-buffer that can be used to compose and draw [uv.Drawable]s

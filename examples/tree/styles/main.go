@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"charm.land/lipgloss/v2"
-	"charm.land/lipgloss/v2/tree"
+	"github.com/keakon/lipgloss/v2"
+	"github.com/keakon/lipgloss/v2/tree"
 )
 
 func main() {

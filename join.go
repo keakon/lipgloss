@@ -4,7 +4,7 @@ import (
 	"math"
 	"strings"
 
-	"github.com/charmbracelet/x/ansi"
+	"github.com/keakon/x/ansi"
 )
 
 // JoinHorizontal is a utility function for horizontally joining two

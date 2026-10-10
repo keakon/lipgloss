@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"io"
 
-	uv "github.com/charmbracelet/ultraviolet"
-	"github.com/charmbracelet/x/ansi"
+	uv "github.com/keakon/ultraviolet"
+	"github.com/keakon/x/ansi"
 )
 
 // Wrap wraps the given string to the given width, preserving ANSI styles and links.
@@ -84,7 +84,7 @@ func (w *WrapWriter) Write(p []byte) (int, error) {
 		_, _ = w.w.Write([]byte{b})
 		if b == '\n' {
 			if !w.link.IsZero() {
-				_, _ = w.w.Write([]byte(ansi.SetHyperlink(w.link.URL, w.link.Params)))
+				_, _ = w.w.Write([]byte(ansi.SetHyperlink(w.link.URL(), w.link.Params())))
 			}
 			if !w.style.IsZero() {
 				_, _ = w.w.Write([]byte(w.style.String()))

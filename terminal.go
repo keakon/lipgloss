@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	uv "github.com/charmbracelet/ultraviolet"
-	"github.com/charmbracelet/x/ansi"
+	uv "github.com/keakon/ultraviolet"
+	"github.com/keakon/x/ansi"
 )
 
 // queryBackgroundColor queries the terminal for the background color.

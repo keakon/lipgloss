@@ -3,7 +3,7 @@ package lipgloss
 import (
 	"strings"
 
-	"github.com/charmbracelet/x/ansi"
+	"github.com/keakon/x/ansi"
 )
 
 // StyleRanges applying styling to ranges in a string. Existing styles will be

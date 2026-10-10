@@ -3,9 +3,9 @@ package main
 import (
 	"os"
 
-	"charm.land/lipgloss/v2"
-	"charm.land/lipgloss/v2/list"
-	"charm.land/lipgloss/v2/table"
+	"github.com/keakon/lipgloss/v2"
+	"github.com/keakon/lipgloss/v2/list"
+	"github.com/keakon/lipgloss/v2/table"
 )
 
 func main() {

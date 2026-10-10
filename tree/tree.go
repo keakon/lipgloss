@@ -29,7 +29,7 @@ import (
 	"fmt"
 	"sync"
 
-	"charm.land/lipgloss/v2"
+	"github.com/keakon/lipgloss/v2"
 )
 
 // Node defines a node in a tree.

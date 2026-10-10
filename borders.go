@@ -6,8 +6,8 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/charmbracelet/x/ansi"
-	"github.com/clipperhouse/displaywidth"
+	"github.com/keakon/displaywidth"
+	"github.com/keakon/x/ansi"
 	"github.com/rivo/uniseg"
 )
 

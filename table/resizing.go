@@ -4,8 +4,8 @@ import (
 	"math"
 	"strings"
 
-	"charm.land/lipgloss/v2"
-	"github.com/charmbracelet/x/ansi"
+	"github.com/keakon/lipgloss/v2"
+	"github.com/keakon/x/ansi"
 )
 
 // resize resizes the table to fit the specified width.

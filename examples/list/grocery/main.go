@@ -1,8 +1,8 @@
 package main
 
 import (
-	"charm.land/lipgloss/v2"
-	"charm.land/lipgloss/v2/list"
+	"github.com/keakon/lipgloss/v2"
+	"github.com/keakon/lipgloss/v2/list"
 )
 
 var purchased = []string{

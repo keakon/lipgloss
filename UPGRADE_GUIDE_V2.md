@@ -1,7 +1,7 @@
 # Lip Gloss v2 Upgrade Guide
 
 This guide covers migrating from Lip Gloss v1 (`github.com/charmbracelet/lipgloss`)
-to Lip Gloss v2 (`charm.land/lipgloss/v2`). It is written for both humans and
+to Lip Gloss v2 (`github.com/keakon/lipgloss/v2`). It is written for both humans and
 LLMs performing automated migrations.
 
 ---
@@ -30,7 +30,7 @@ For the fastest possible upgrade, do these two things:
 ### 1. Use the `compat` package for adaptive/complete colors
 
 ```go
-import "charm.land/lipgloss/v2/compat"
+import "github.com/keakon/lipgloss/v2/compat"
 
 // v1
 color := lipgloss.AdaptiveColor{Light: "#f1f1f1", Dark: "#cccccc"}
@@ -44,7 +44,7 @@ customize:
 
 ```go
 import (
-    "charm.land/lipgloss/v2/compat"
+    "github.com/keakon/lipgloss/v2/compat"
     "github.com/charmbracelet/colorprofile"
 )
 
@@ -80,13 +80,13 @@ The import path has changed.
 import "github.com/charmbracelet/lipgloss"
 
 // v2
-import "charm.land/lipgloss/v2"
+import "github.com/keakon/lipgloss/v2"
 ```
 
 **Install:**
 
 ```bash
-go get charm.land/lipgloss/v2
+go get github.com/keakon/lipgloss/v2
 ```
 
 All subpackages follow the same pattern:
@@ -98,15 +98,15 @@ import "github.com/charmbracelet/lipgloss/tree"
 import "github.com/charmbracelet/lipgloss/list"
 
 // v2
-import "charm.land/lipgloss/v2/table"
-import "charm.land/lipgloss/v2/tree"
-import "charm.land/lipgloss/v2/list"
+import "github.com/keakon/lipgloss/v2/table"
+import "github.com/keakon/lipgloss/v2/tree"
+import "github.com/keakon/lipgloss/v2/list"
 ```
 
 **Search-and-replace pattern:**
 
 ```
-github.com/charmbracelet/lipgloss → charm.land/lipgloss/v2
+github.com/charmbracelet/lipgloss → github.com/keakon/lipgloss/v2
 ```
 
 ---
@@ -428,7 +428,7 @@ The import path changes and there are new styling options:
 import "github.com/charmbracelet/lipgloss/tree"
 
 // v2
-import "charm.land/lipgloss/v2/tree"
+import "github.com/keakon/lipgloss/v2/tree"
 ```
 
 New methods:
@@ -473,7 +473,7 @@ A side-by-side summary for common patterns:
 
 | Task | v1 | v2 |
 |---|---|---|
-| Import | `"github.com/charmbracelet/lipgloss"` | `"charm.land/lipgloss/v2"` |
+| Import | `"github.com/charmbracelet/lipgloss"` | `"github.com/keakon/lipgloss/v2"` |
 | Create style | `lipgloss.NewStyle()` | `lipgloss.NewStyle()` |
 | Hex color | `lipgloss.Color("#ff00ff")` | `lipgloss.Color("#ff00ff")` |
 | ANSI color | `lipgloss.Color("5")` | `lipgloss.Color("5")` or `lipgloss.Magenta` |

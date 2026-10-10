@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"charm.land/lipgloss/v2"
 	"github.com/charmbracelet/x/exp/golden"
+	"github.com/keakon/lipgloss/v2"
 )
 
 var TableStyle = func(row, col int) lipgloss.Style {
@@ -1044,9 +1044,9 @@ func TestContentWrapping_WithMargins(t *testing.T) {
 
 func TestContentWrapping_WithHeight(t *testing.T) {
 	tests := []struct {
-		name     string
-		headers  []string
-		data     [][]string
+		name    string
+		headers []string
+		data    [][]string
 	}{
 		{
 			"LongHeaderContentLongAndShortRows",

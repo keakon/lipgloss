@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	tea "charm.land/bubbletea/v2"
-	"charm.land/lipgloss/v2"
+	tea "github.com/keakon/bubbletea/v2"
+	"github.com/keakon/lipgloss/v2"
 )
 
 // Style definitions.

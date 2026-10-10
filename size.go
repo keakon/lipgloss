@@ -3,7 +3,7 @@ package lipgloss
 import (
 	"strings"
 
-	"github.com/charmbracelet/x/ansi"
+	"github.com/keakon/x/ansi"
 )
 
 // Width returns the cell width of characters in the string. ANSI sequences are

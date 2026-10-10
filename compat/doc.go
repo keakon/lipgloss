@@ -11,7 +11,7 @@
 //		"os"
 //
 //		"github.com/charmbracelet/colorprofile"
-//		"charm.land/lipgloss/v2/impure"
+//		"github.com/keakon/lipgloss/v2/impure"
 //	)
 //
 //	func init() {

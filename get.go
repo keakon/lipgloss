@@ -4,7 +4,7 @@ import (
 	"image/color"
 	"strings"
 
-	"github.com/charmbracelet/x/ansi"
+	"github.com/keakon/x/ansi"
 )
 
 // GetBold returns the style's bold value. If no value is set false is returned.

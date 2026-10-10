@@ -3,7 +3,7 @@ package lipgloss
 import (
 	"strings"
 
-	"github.com/charmbracelet/x/ansi"
+	"github.com/keakon/x/ansi"
 )
 
 // whitespace is a whitespace renderer.

@@ -8,8 +8,8 @@ import (
 	"os"
 	"strings"
 
-	"charm.land/lipgloss/v2"
 	"github.com/charmbracelet/x/term"
+	"github.com/keakon/lipgloss/v2"
 	"github.com/rivo/uniseg"
 )
 

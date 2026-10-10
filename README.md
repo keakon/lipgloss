@@ -1,9 +1,15 @@
+This Chord fork uses the corrected spacing-grapheme width throughout the ANSI and Ultraviolet rendering chain. Install the fork version explicitly:
+
+```sh
+go get github.com/keakon/lipgloss/v2@v2.0.6-fork.1
+```
+
 # Lip Gloss
 
 <p >
     <img src="https://github.com/user-attachments/assets/d13bbe1a-d2b2-4d18-9302-419a0bc3f579" width="350"><br>
     <a href="https://github.com/charmbracelet/lipgloss/releases"><img src="https://img.shields.io/github/release/charmbracelet/lipgloss.svg" alt="Latest Release"></a>
-    <a href="https://pkg.go.dev/charm.land/lipgloss/v2?tab=doc"><img src="https://godoc.org/github.com/golang/gddo?status.svg" alt="GoDoc"></a>
+    <a href="https://pkg.go.dev/github.com/keakon/lipgloss/v2?tab=doc"><img src="https://godoc.org/github.com/golang/gddo?status.svg" alt="GoDoc"></a>
     <a href="https://github.com/charmbracelet/lipgloss/actions"><img src="https://github.com/charmbracelet/lipgloss/workflows/build/badge.svg" alt="Build Status"></a>
 </p>
 
@@ -15,7 +21,7 @@ Lip Gloss takes an expressive, declarative approach to terminal rendering.
 Users familiar with CSS will feel at home with Lip Gloss.
 
 ```go
-import "charm.land/lipgloss/v2"
+import "github.com/keakon/lipgloss/v2"
 
 var style = lipgloss.NewStyle().
     Bold(true).
@@ -31,7 +37,7 @@ lipgloss.Println(style.Render("Hello, kitty"))
 ## Installation
 
 ```bash
-go get charm.land/lipgloss/v2
+go get github.com/keakon/lipgloss/v2@v2.0.6-fork.1
 ```
 
 > [!TIP]
@@ -289,7 +295,7 @@ s := lipgloss.NewStyle().
     BorderForegroundBlend(lipgloss.Color("#FF0000"), lipgloss.Color("#0000FF"))
 ```
 
-For more on borders see [the docs](https://pkg.go.dev/charm.land/lipgloss/v2#Border).
+For more on borders see [the docs](https://pkg.go.dev/github.com/keakon/lipgloss/v2#Border).
 
 ## Copying Styles
 
@@ -493,7 +499,7 @@ You can also style the whitespace. For details, see [the docs][docs].
 Lip Gloss ships with a table rendering sub-package.
 
 ```go
-import "charm.land/lipgloss/v2/table"
+import "github.com/keakon/lipgloss/v2/table"
 ```
 
 Define some rows of data.
@@ -593,7 +599,7 @@ For more on tables see [the docs][docs] and [examples](https://github.com/charmb
 Lip Gloss ships with a list rendering sub-package.
 
 ```go
-import "charm.land/lipgloss/v2/list"
+import "github.com/keakon/lipgloss/v2/list"
 ```
 
 Define a new list.
@@ -700,7 +706,7 @@ for i := 0; i < repeat; i++ {
 Lip Gloss ships with a tree rendering sub-package.
 
 ```go
-import "charm.land/lipgloss/v2/tree"
+import "github.com/keakon/lipgloss/v2/tree"
 ```
 
 Define a new tree.
@@ -812,7 +818,7 @@ The `compat` package provides `AdaptiveColor`, `CompleteColor`, and
 looking at `stdin` and `stdout` on a global basis:
 
 ```go
-import "charm.land/lipgloss/v2/compat"
+import "github.com/keakon/lipgloss/v2/compat"
 
 color := compat.AdaptiveColor{
     Light: lipgloss.Color("#f1f1f1"),
@@ -993,4 +999,4 @@ Part of [Charm](https://charm.land).
 
 Charm热爱开源 • Charm loves open source
 
-[docs]: https://pkg.go.dev/charm.land/lipgloss/v2?tab=doc
+[docs]: https://pkg.go.dev/github.com/keakon/lipgloss/v2?tab=doc
